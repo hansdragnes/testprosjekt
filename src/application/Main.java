@@ -19,6 +19,7 @@ public class Main extends Application {
 			primaryStage.setTitle("Play game");
 			Button okBtn = new Button("Ok");
 			Button cnclBtn = new Button("Cancel");
+			Button srprsBtn = new Button("Surprise");
 			
 			GridPane grid=new GridPane();
 			grid.setAlignment(Pos.CENTER);
@@ -32,6 +33,7 @@ public class Main extends Application {
 			hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
 			hbBtn.getChildren().add(okBtn);
 			hbBtn.getChildren().add(cnclBtn);
+			hbBtn.getChildren().add(srprsBtn);
 			grid.add(hbBtn,0,1);
 			
 			Scene scene = new Scene(grid,400,400);
