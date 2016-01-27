@@ -26,7 +26,7 @@ public class Main extends Application {
 			Button srprsBtn = new Button("Surprise");
 			
 			GridPane grid=new GridPane();
-			grid.setAlignment(Pos.CENTER);
+			grid.setAlignment(Pos.BOTTOM_CENTER);
 			grid.setHgap(10);
 			grid.setVgap(10);
 			grid.setPadding(new Insets(25,25,25,25));
